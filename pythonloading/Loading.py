@@ -55,4 +55,6 @@ def optionseod(p):
             # is a file
 
 
-optionseod('test-data')
+optionseod('options-eod')
+optionseod('options-eod-calcs')
+optionseod('options-eod-ivindex')

@@ -1,0 +1,39 @@
+{
+  "Table": {
+    "TableStatus": "ACTIVE",
+    "KeySchema": [
+      {
+        "KeyType": "HASH",
+        "AttributeName": "quoted_option_root"
+      },
+      {
+        "KeyType": "RANGE",
+        "AttributeName": "expiration_date"
+      }
+    ],
+    "TableName": "options-eod-calc",
+    "TableSizeBytes": 0,
+    "TableArn": "arn:aws:dynamodb:us-west-2:415926896195:table/options-eod-calc",
+    "ItemCount": 0,
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "WriteCapacityUnits": 10,
+      "ReadCapacityUnits": 200
+    },
+    "CreationDateTime": "datetime.datetime(2015, 8, 3, 1, 15, 32, 865999, tzinfo=tzlocal())",
+    "AttributeDefinitions": [
+      {
+        "AttributeType": "S",
+        "AttributeName": "expiration_date"
+      },
+      {
+        "AttributeType": "S",
+        "AttributeName": "quoted_option_root"
+      }
+    ]
+  },
+  "ResponseMetadata": {
+    "RequestId": "J35770SA6TMRPRR66A663B4FMFVV4KQNSO5AEMVJF66Q9ASUAAJG",
+    "HTTPStatusCode": 200
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Table": {
+    "TableStatus": "ACTIVE",
+    "KeySchema": [
+      {
+        "KeyType": "HASH",
+        "AttributeName": "quoted_option_root"
+      },
+      {
+        "KeyType": "RANGE",
+        "AttributeName": "expiration"
+      }
+    ],
+    "TableName": "options-data",
+    "TableSizeBytes": 4956,
+    "TableArn": "arn:aws:dynamodb:us-west-2:415926896195:table/options-data",
+    "ItemCount": 18,
+    "ProvisionedThroughput": {
+      "NumberOfDecreasesToday": 0,
+      "WriteCapacityUnits": 5,
+      "ReadCapacityUnits": 300
+    },
+    "CreationDateTime": "datetime.datetime(2015, 7, 19, 14, 41, 32, 292000, tzinfo=tzlocal())",
+    "AttributeDefinitions": [
+      {
+        "AttributeType": "S",
+        "AttributeName": "expiration"
+      },
+      {
+        "AttributeType": "S",
+        "AttributeName": "quoted_option_root"
+      }
+    ]
+  },
+  "ResponseMetadata": {
+    "RequestId": "LT124NGBQH7VTSTS3VIBUOG9Q7VV4KQNSO5AEMVJF66Q9ASUAAJG",
+    "HTTPStatusCode": 200
+  }
+}
